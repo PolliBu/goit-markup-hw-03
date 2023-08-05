@@ -103,8 +103,8 @@ img {
   display: flex;
   align-items: center;
 }
-.nav-item-link {
-  padding: 24px 0 24px;
+.nav-item-link .link {
+  padding: 24px 0;
 }
 .nav-item .link {
   color: var(--primary-black-color);
