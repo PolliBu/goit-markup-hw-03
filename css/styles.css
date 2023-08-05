@@ -63,11 +63,11 @@ img {
 }
 /* Header section  */
 .header {
-  border-bottom: 1px solid var(--color-border-button);
-}
-.header-container {
-  display: flex;
-  justify-content: space-between;
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--color-border-button);
+  }
 }
 
 /* Logo */
@@ -104,7 +104,7 @@ img {
   align-items: center;
 }
 .nav-item-link {
-  padding: 24px 0;
+  padding: 24px 0 24px;
 }
 .nav-item .link {
   color: var(--primary-black-color);
@@ -126,8 +126,7 @@ img {
   gap: 40px;
   padding: 24px 0;
 }
-.address-contacts {
-}
+
 .address-contacts .link {
   color: var(--primary-grey-color);
   align-items: center;
@@ -139,11 +138,10 @@ img {
   color: var(--active-link-color);
 }
 /* headline section */
-.headline {
-  padding: 188px 0;
-}
+
 .headline-container {
   background: var(--primary-black-color);
+  padding: 188px 0;
 }
 
 .button {
@@ -206,13 +204,11 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
-.advantages-section {
-  padding: 120px 0;
-}
 
 .advantages-container {
   width: 1128px;
   padding: 0;
+  padding: 120px 0;
 }
 
 .advantages-list {
@@ -225,12 +221,14 @@ img {
 }
 
 /* doing-section */
-.doing-section {
-  padding-bottom: 120px;
-}
 .team-container {
   width: 1128px;
   background-color: #f4f4fd;
+  padding-bottom: 120px;
+}
+
+.title-team {
+  padding: 120px 0;
 }
 .team-list {
   display: flex;
@@ -285,9 +283,7 @@ img {
 }
 
 /* Our Team */
-.title-team {
-  padding: 120px 0;
-}
+
 .section-title-team .list {
   display: flex;
   flex-direction: row;
@@ -392,4 +388,7 @@ img {
   color: var(--primary-grey-second-color);
   font-weight: 400;
   max-width: 264px;
+}
+.footer-text-text {
+  margin: auto 1020px 100px 156px;
 }
