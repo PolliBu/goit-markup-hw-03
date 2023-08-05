@@ -62,10 +62,12 @@ img {
   padding: 0 15px;
 }
 /* Header section  */
+.header {
+  border-bottom: 1px solid var(--color-border-button);
+}
 .header-container {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid #e7e9fc;
 }
 
 /* Logo */
@@ -101,6 +103,9 @@ img {
   display: flex;
   align-items: center;
 }
+.nav-item-link {
+  padding: 24px 0;
+}
 .nav-item .link {
   color: var(--primary-black-color);
   font-family: var(--primary-font);
@@ -134,9 +139,11 @@ img {
   color: var(--active-link-color);
 }
 /* headline section */
+.headline {
+  padding: 188px 0;
+}
 .headline-container {
   background: var(--primary-black-color);
-  padding: 188px 0 188px;
 }
 
 .button {
@@ -384,7 +391,5 @@ img {
 .footer-text {
   color: var(--primary-grey-second-color);
   font-weight: 400;
-}
-.footer-text-text {
-  padding: auto 1020px 100px 156px;
+  max-width: 264px;
 }
