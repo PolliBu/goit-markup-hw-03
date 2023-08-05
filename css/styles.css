@@ -352,8 +352,8 @@ img {
   margin-bottom: 72px;
 }
 
-.portfolio-photo .link {
-  width: calc((100-6 * 24) / 9);
+.portfolio-photo-item {
+  width: calc((100-6 * 24px) / 9);
 }
 
 .section-photo-text,
@@ -384,4 +384,7 @@ img {
 .footer-text {
   color: var(--primary-grey-second-color);
   font-weight: 400;
+}
+.footer-text-text {
+  padding: auto 1020px 100px 156px;
 }
