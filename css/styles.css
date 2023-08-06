@@ -356,12 +356,16 @@ img {
   margin-bottom: 72px;
 }
 
-.section-photo-text,
+.section-photo-text {
+  color: var(--primary-grey-color);
+  font-weight: 400;
+  text-align: center;
+}
+
 .section-text-portfolio {
   color: var(--primary-grey-color);
   font-weight: 400;
 }
-
 .section-cards {
   background-color: var(--primary-white-color);
 }
@@ -373,7 +377,8 @@ img {
 
 .footer-container .logo {
   display: inline-block;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
+  margin-right: 0;
 }
 .footer-text {
   color: var(--primary-grey-second-color);
@@ -381,4 +386,5 @@ img {
   display: block;
   box-sizing: content-box;
   width: 264px;
+  margin-right: 0;
 }
