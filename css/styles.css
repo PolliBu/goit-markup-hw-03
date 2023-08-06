@@ -9,7 +9,7 @@
   --color-border-button: #e7e9fc;
   --primary-font-size: 16px;
   --primary-line-height: 1.5;
-  --primary-letter-spacing: 0.02em;
+  --primary-letter-spacing: 0.32px;
 }
 
 /* Base styles */
@@ -36,7 +36,6 @@ ul {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
-  display: flex;
 }
 
 img {
@@ -82,7 +81,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin: 24px 76px 24px 156px;
+  margin-right: 76px;
 }
 
 .logo-header {
@@ -127,6 +126,7 @@ img {
   padding: 24px 0;
 }
 .address-contacts {
+  font-style: normal;
 }
 .address-contacts .link {
   color: var(--primary-grey-color);
@@ -141,8 +141,6 @@ img {
 /* headline section */
 .headline {
   padding: 188px 0;
-}
-.headline-container {
   background: var(--primary-black-color);
 }
 
@@ -168,8 +166,6 @@ img {
   margin-right: auto;
   margin-left: auto;
   min-width: 169px;
-
-  height: 56px;
 
   align-items: flex-start;
   gap: 10px;
@@ -202,7 +198,7 @@ img {
   line-height: var(--primary-line-height);
   letter-spacing: var(--primary-letter-spacing);
   max-width: 496px;
-  height: 120px;
+
   margin-left: auto;
   margin-right: auto;
 }
@@ -231,6 +227,7 @@ img {
 .team-container {
   width: 1128px;
   background-color: #f4f4fd;
+  padding: 0;
 }
 .team-list {
   display: flex;
@@ -287,6 +284,7 @@ img {
 /* Our Team */
 .title-team {
   padding: 120px 0;
+  background: var(--primary-grey-second-color);
 }
 .section-title-team .list {
   display: flex;
@@ -346,7 +344,6 @@ img {
   padding: 32px 16px;
   border: 1px solid var(--color-border-button);
   border-top: none;
-  text-align: center;
 }
 .portfolio-button {
   padding-top: 96px;
@@ -359,19 +356,10 @@ img {
   margin-bottom: 72px;
 }
 
-.portfolio-photo-item {
-  width: calc((100-6 * 24px) / 9);
-}
-
 .section-photo-text,
 .section-text-portfolio {
-  text-align: center;
   color: var(--primary-grey-color);
   font-weight: 400;
-}
-
-.section-title-team {
-  background: var(--primary-grey-second-color);
 }
 
 .section-cards {
@@ -380,19 +368,17 @@ img {
 
 .footer {
   padding: 100px 0;
-}
-.footer-container {
   background-color: var(--primary-black-color);
 }
+
 .footer-container .logo {
   display: inline-block;
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
 .footer-text {
   color: var(--primary-grey-second-color);
   font-weight: 400;
-  max-width: 264px;
-}
-.footer-text-text {
-  margin: auto 1020px 100px 156px;
+  display: block;
+  box-sizing: content-box;
+  width: 264px;
 }
